@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             count += increment;
                             if(count > target) count = target;
                             c.innerText = count;
-                            setTimeout(update, 400);
+                            setTimeout(update, 200);
                         }
                     };
                     update();
@@ -153,4 +153,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
         runDecodeSequence();
     }
+
 });
